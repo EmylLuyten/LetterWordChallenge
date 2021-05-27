@@ -10,7 +10,7 @@ namespace LetterWordChallenge
 			List<string> inputs = new List<string>();
 
 			System.IO.StreamReader file = 
-				new System.IO.StreamReader(@"C:\Users\Emyl\source\repos\LetterWordChallenge\LetterWordChallenge\input.txt");
+				new System.IO.StreamReader(@"Input\input.txt");
 			while ((line = file.ReadLine()) != null) {
 				inputs.Add(line);
 			}
